@@ -1,0 +1,433 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    min-width: 1200px;
+    background-color: rgb(36, 36, 36);
+}
+
+.logo {
+    height: 70px;
+}
+
+.header-con-list {
+    display: flex;
+    list-style: none;
+    line-height: 70px;
+    color: rgb(204, 204, 204);
+}
+
+.header-con-list li span {
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center
+}
+
+.search-cont {
+    display: block;
+    background-color: #fff;
+    height: 32px;
+    width: 158px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+.search-cont input {
+    position: relative;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    top: 5px;
+    float: left;
+    left: -3px;
+    height: 24px;
+    width: 120px;
+}
+
+.sch-img {
+    float: left;
+    width: 13px;
+    padding: 10px;
+}
+
+.head-pic {
+    width: 70px;
+}
+
+.head-pic img {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.login {
+    line-height: 70px;
+    color: rgb(141, 141, 141);
+    padding-left: 30px;
+}
+
+.hr-header {
+    background-color: rgb(194, 12, 12);
+    display: flex;
+    justify-content: center;
+    min-width: 1200px;
+}
+
+.hr-list {
+    display: flex;
+    list-style: none;
+    line-height: 20px;
+    padding-bottom: 8px;
+    top: -10px;
+    color: rgb(255, 255, 255);
+}
+
+.hr-cot {
+    position: relative;
+    left: -32px;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+
+.hr-lists {
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    border-radius: 12px;
+    font-size: 13px;
+    background-color: rgb(155, 9, 9);
+}
+
+html {
+    background-color: rgb(245, 245, 245);
+}
+
+.main {
+    display: flex;
+    border-left: 1px solid rgb(181, 181, 181);
+    border-right: 1px solid rgb(181, 181, 181);
+    border-bottom: 1px solid rgb(181, 181, 181);
+    width: 70%;
+    background: rgb(255, 255, 255);
+    height: 700px;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left {
+    border-right: 1px solid rgb(195, 195, 195);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 70%;
+    height: 700px;
+}
+
+.right {
+    height: 700px;
+    width: 27%;
+}
+
+.head-hp {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 2px solid rgb(193, 13, 12);
+}
+
+.head-hp img {
+    width: 17px;
+    padding: 13px;
+    padding-right: 10px;
+}
+
+.head-hp h3 {
+    display: inline-block;
+}
+
+.music-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.music-list a {
+    position: relative;
+    top: -30px;
+    text-decoration: none;
+    color: black;
+}
+
+.music-list a:hover {
+    text-decoration: underline;
+}
+
+.music-box {
+    display: inline-block;
+    margin: 10px;
+    width: 150px;
+    height: 180px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.music-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.icon-list {
+    position: relative;
+    float: left;
+    top: -32px;
+    width: 150px;
+    height: 26px;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: rgb(59, 59, 59);
+    opacity: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(201, 196, 201);
+}
+
+.icon-list img {
+    width: 17px;
+    height: 17px;
+    padding: 5px;
+}
+
+.head {
+    position: relative;
+    display: none;
+    width: 160px;
+    height: 340px;
+    left: -30px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extend {
+    width: 160px;
+    height: auto;
+    background-color: rgb(43, 43, 43);
+    border-radius: 5px;
+    display: none;
+}
+
+.extend-list {
+    list-style: none;
+    position: relative;
+    font-size: 12px;
+    color: rgb(200, 200, 200);
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.extend-list:hover {
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.extend-list img {
+    width: 17px;
+    padding: 8px;
+    padding-left: 30px;
+}
+
+.login {
+    display: block;
+    color: rgb(128, 128, 128);
+}
+
+.login:hover {
+    color: rgb(164, 164, 164);
+    text-decoration: underline solid rgb(164, 164, 164);
+}
+
+.loginpage {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    z-index: 50;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+}
+
+.page-head {
+    width: 500px;
+    height: 37px;
+    background-color: rgb(45, 45, 45);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.page-head p {
+    display: inline-block;
+    line-height: 37px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.bg {
+    display: none;
+    position: absolute;
+    min-width: 1200px;
+    width: 100%;
+    height: 100%;
+    z-index: 49;
+    opacity: 70%;
+    background-color: black;
+}
+
+.page-head span {
+    padding: 8px;
+    padding-right: 15px;
+    color: rgb(189, 189, 189);
+    float: right;
+}
+
+.loginPhonePage {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPhonePage input {
+    z-index: 51;
+    outline: none;
+    border: 0.3px solid rgb(132, 132, 132);
+    padding: 5px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.loginPhonePage {
+    padding-top: 20px;
+}
+
+.loginPhonePage button {
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(51, 130, 206);
+}
+
+.header {
+    border-bottom: 6px solid rgb(194, 12, 12);
+}
+
+
+.main1 {
+    border-left: 1px solid rgb(181, 181, 181);
+    border-right: 1px solid rgb(181, 181, 181);
+    border-bottom: 1px solid rgb(181, 181, 181);
+    width: 70%;
+    background: rgb(255, 255, 255);
+    height: 700px;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.searchInput {
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.searchInput input {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+    box-shadow: 0px 1px 2px 0px rgb(218, 218, 218) inset;
+    outline: none;
+    width: 280px;
+    padding: 10px;
+}
+
+.searchInput button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+    border-left: 0px;
+    outline: none;
+    width: 40px;
+}
+
+.searchList {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 700px;
+}
+
+.btnpic {
+    width: 18px;
+    height: 18px;
+}
+
+.searchEnd {
+    margin-left: 50px;
+    color: rgb(148, 148, 148);
+}
+
+.searchEnd p {
+    display: inline-block;
+    color: rgb(194, 12, 12);
+}
+
+.searchLists {
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.searchLists span {
+    float: left;
+    color: rgb(12,115,194);
+}
+
+.searchLists img {
+    float: left;
+    padding: 10px;
+    width: 30px;
+}
+
+.searchLists:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.searchPage {
+    display: none;
+}
